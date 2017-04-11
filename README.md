@@ -30,6 +30,7 @@ The classifiers were validated and compared based on 10 fold cross validation.
 ## Conclusion
 * The confusion matrix shown below summarizes the accuracy of the model. 
 * The diagonal elements and the non-diagonal elements show the number of times the model was right and wrong respectively
+
 ![](https://github.com/thiagunagu/Prediciting-progressive-cavity-pump-failure/raw/master/pump.jpg)
 ### Ways to improve the accuracy of the model:
 * In a span of 400 days, failures occur 1 - 3 times. Due to the rarity of failure events, the model doesn’t get adequate negative examples. This can be solved by providing synthetic failure data in order for the model to have more examples of negative datasets
