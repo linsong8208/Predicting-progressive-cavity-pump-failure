@@ -10,7 +10,7 @@ To predict below-mentioned issues in progressive cavity pump using historical da
 * Per subject matter experts the predictor variables of different issues have been identified as shown on the right
 * The solution to this problem requires “multiclass classification model “, that alerts the user about a specific issue. 
 * This has been simplified to a binary class classification model that alerts the user about any abnormal condition, without stating the specific issue.
-![](https://github.com/thiagunagu/Prediciting-progressive-cavity-pump-failure/raw/master/pumpapp.jpg)
+![](https://github.com/thiagunagu/Predicting-progressive-cavity-pump-failure/raw/master/pumpapp.jpg)
 
 ## Methodology
 ### Data Extraction
@@ -31,7 +31,7 @@ The classifiers were validated and compared based on 10 fold cross validation.
 * The confusion matrix shown below summarizes the accuracy of the model. 
 * The diagonal elements and the non-diagonal elements show the number of times the model was right and wrong respectively
 
-![](https://github.com/thiagunagu/Prediciting-progressive-cavity-pump-failure/raw/master/pump.jpg)
+![](https://github.com/thiagunagu/Predicting-progressive-cavity-pump-failure/raw/master/pump.jpg)
 ### Ways to improve the accuracy of the model:
 * In a span of 400 days, failures occur 1 - 3 times. Due to the rarity of failure events, the model doesn’t get adequate negative examples. This can be solved by providing synthetic failure data in order for the model to have more examples of negative datasets
 * Extract and use other features such as range, mean in addition to median, standard deviation, and principal component to represent the subsequence
